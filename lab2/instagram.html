@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        .phone-wrapper {
+            max-width: 460px;
+            width: 50vw;
+            position: relative;
+            margin-left: 294px;
+            margin-top: 42px;
+        }
+
+        .phone-wrapper img {
+            max-width: 100%;
+
+        }
+
+        .phone-forground {
+            position: absolute;
+            top: 3.5%;
+            right: 11.5%;
+            width: 55%;
+        }
+
+        .logotip {
+            width: 175px;
+            margin-left: 50px;
+        }
+        .first-square{
+            
+            
+            padding-left: 800px;
+        }
+        .first-square{
+            position: absolute;
+            top: 50px;
+            left: -40px;
+        }
+        .square {
+            
+            border-radius: 1px;
+            border: 0.2px solid #8e8e8e;
+            padding:50px 30px 30px 30px;
+        }
+
+        .input-wrapper {
+            position: relative;
+        }
+
+        .input-wrapper input {
+            border: none;
+            padding: 15px 20px 10px 5px;
+            border: 1px solid #eee;
+            border-radius: 2px;
+            background-color: #fff;
+            width: 270px;
+            height: 10px;
+
+        }
+
+        .input-wrapper .placeholder {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translate(0, -50%);
+            color: #8e8e8e;
+            transition: 0.2s ease;
+            pointer-events: none;
+            padding-top: 2px;
+            font-size: 12px;
+        }
+
+        .placeholder.active {
+            top: 10px;
+            font-size: 12px;
+        }
+
+        .register {
+            padding-top: 20px;
+        }
+
+        .probel {
+            padding-top: 5px;
+
+        }
+
+        .login {
+            height: 35px;
+            width: 300px;
+            background-color: #67b6fa;
+            border-radius: 6px;
+            margin-top: 20px;
+            border: none;
+            color: white;
+            font-weight: 800;
+
+            cursor: pointer;
+            
+        }
+        .login:hover{
+            background-color:#1798f7;
+        }
+        .line {
+            width: 100px;
+            
+        }
+
+        .square-line {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+            
+        }
+        .and{
+            font-size:12px;
+            color:#8e8e8e
+
+        }
+        .facebook{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            padding-top:30px;
+        }
+        .facebook-emblem{
+            width:20px;
+            margin-right:5px;
+
+        }
+        .facebook-text{
+            color:#385184;
+            font-weight: 700;
+            font-size: 14px;
+            font-family:-apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            text-decoration: none;
+
+        }
+        .forgot{
+            text-decoration: none;
+            font-size:14px;
+            color:#01376b;
+            
+        }
+        .for{
+            padding-left:100px ;
+            padding-top:30px;
+            
+        
+            }   
+            .square2{
+                margin-top:10px;
+                border:0.2px solid #8e8e8e;
+            }
+            .register{
+                text-decoration: none;
+                color:#1798f7;
+                font-weight: 600;
+
+            }
+            .new-acc{
+                padding-left:30px;
+                
+
+            }
+            .downloader{
+                padding-left:90px;
+            }
+            .vidget{
+                height: 40px;
+            }
+            .aps{
+                padding-left:30px;
+            }
+            .meta{
+                text-decoration: none;
+                font-size:13px;
+                color:#8f8f8fff;
+         
+                padding-right:10px;
+
+            }
+            .teg{
+                padding-left:140px;
+            }
+            .contact{
+                padding-left:400px;
+            }
+            .rus{
+                font-size:13px;
+                color:#8f8f8fff;               
+                padding-right:10px;
+                padding-left:600px;
+            }
+            .insta{
+                padding-left:30px;
+            }
+    </style>
+
+    <script src="/index.js" defer></script>
+</head>
+
+<body>
+    <div id="page">
+        <div class="phone-wrapper">
+            <img src="phone1.png">
+            <div class="phone-forground">
+                <img src="screenshot3-2x.png">
+            </div>
+        </div>
+        <div class="first-square">
+        <div class="square">
+            <img src="Instagram_logo.png" class="logotip">
+            <div class="register">
+                <div class="input-wrapper">
+                    <span class="placeholder">Телефон, имя пользователя или эл.адрес</span>
+                    <input type="text" class="email">
+                </div>
+                <div class="probel">
+                    <div class="input-wrapper">
+                        <span class="placeholder">Пароль</span>
+                        <input type="password" class="email">
+                    </div>
+                </div>
+            </div>
+
+            <input type="submit" class="login" value="Вoйти">
+            <div class="square-line">
+                <hr class="line">
+                </hr>
+                <p class="and">ИЛИ</p>
+                <hr class="line">
+                </hr>
+            </div>
+            <div class="facebook">
+                <a href="#"><img src="facebook-emblem.jpg" class="facebook-emblem"></a>
+                <a href="#" class="facebook-text">Войти через Facebook</a>
+            </div>
+            <div class="for">
+            <a href="#" class="forgot">Забыли пароль?</a>   
+            </div>
+            
+        </div>
+        <div class="square2">
+        <p class="new-acc">У вас еще нет аккаунта? <a href="#" class="register">Зарегистироваться</a></p>
+    </div>
+    <div class="downloader">
+        <p class="download">Установите приложение</p>
+    </div>
+    <div class="aps">    
+    <a href="#"> <img src="appstore.png" class="vidget"></a>
+    <a href="#"> <img src="googleplay.png" class="vidget"></a>
+</div>
+</div>
+    <p class="teg">
+        <a href="#" class="meta" >Meta</a>
+        <a href="#" class="meta" >Информация</a>
+        <a href="#" class="meta" >Блог</a>
+        <a href="#" class="meta" >Вакансии</a>
+        <a href="#" class="meta" >Помощь</a>
+        <a href="#" class="meta" >API</a>
+        <a href="#" class="meta" >Конфиденциальность</a>
+        <a href="#" class="meta" >Условия</a>
+        <a href="#" class="meta" >Популярные аккаунты</a>
+        <a href="#" class="meta" >Места</a>
+        <a href="#" class="meta" >Instagram Lite</a>
+        <a href="#" class="meta" >Загрузка контактов и лица, не являющиеся пользователями</a>
+        </p>                
+        <div>
+        <p class="rus">Русский <span class="insta">© 2023 Instagram from Meta</span></p>
+
+    </div>
+    </div>
+</body>
+
+</html>
