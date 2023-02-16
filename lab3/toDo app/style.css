@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 300px;
+}
+
+header div{
+    width:600px;
+    height:80px;
+    background-color: rgb(149, 149, 149);    
+    font-size: 24px;
+    color:rgb(46, 45, 45);
+    margin: 0 auto;
+}
+.todo{
+    padding-left:240px;
+    padding-top:20px;
+}
+
+.task {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
