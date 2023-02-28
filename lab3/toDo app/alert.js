@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
     const taskInput = document.querySelector('.taskName');
     const addBtn = document.querySelector('.addButton');
-
+    const taskList = this.document.querySelector('.task-list-wrapper');
 
     
     addBtn.addEventListener('click', function() {
@@ -65,4 +65,8 @@ function generateId() {
 function removeTask(id) {
     const div = document.querySelector(`.task[data-key="${id}"]`);
     div.remove();
+}
+function done(id){
+    const div = document.querySelector(`.task[data-key="${id}"]`);
+    div.classList.toggle('cross');
 }
