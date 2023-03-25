@@ -1,3 +1,5 @@
+<div *ngIf="post.id; else other">
+
 
 <button type="button" (click)="back()">back</button>
 
@@ -20,3 +22,7 @@
 </div>
   
   <h3 *ngIf="!loaded">Post is loading...</h3>
+</div>
+<ng-template #other>
+    <app-not-found></app-not-found>
+</ng-template>
